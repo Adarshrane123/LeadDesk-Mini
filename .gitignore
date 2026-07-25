@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+server/.env
+server/.env.*
+
+# Build output
+dist/
+build/
+client/dist/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Coverage
+coverage/
+
+# Misc
+package-lock.json
+yarn.lock
